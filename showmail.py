@@ -1,6 +1,6 @@
 name =input("enter your name")
 def show_name():
-    print('my name is ' + name)
+    print('this not my name' + name)
 
 
-show_name()
+show_name(
