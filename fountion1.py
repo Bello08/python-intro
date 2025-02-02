@@ -66,4 +66,44 @@ def ledger():
     print(j4)
 ledger()
 
+def budget():
+    d1=250000
+    d2=500*4
+    d3=2000*3
+    d4=45000
+    d5=25000*3
+    d6=d1-d2-d3-d4-d5
+    print(d6)
+budget()  
+
+
+
+2. #mr john took a loan of principal 500k for two years at the r8 of 5%
+
+#write a python fucntion that will calculate the simple interest 
+#s.i=ptr/100
+
+def simpleinterest():
+    p=500000
+    t=2
+    r=5
+    si=p*t*r/100
+    print(si)
+simpleinterest()
+
+#The lenght of retangle is 8cm and the breths is 6cm find the area and perimeter using python
+
+def retangle():
+    l=8
+    b=6
+    a=l*b
+    print(a)
+    p=(l+b)*2
+    print(p)
+    diff=a-p
+    print(diff)
+
+    
+
+
 
